@@ -1,7 +1,7 @@
 ### LocklessPancakePair
 老实了，接连两道题难度攀升，决定跳过一下
 
-blazectf LocklessPancakePair 这个题又两个合约，第一个合约里两个代币各有1个，第二个合约各有99个，如合约名所说Lockless，这个lock修饰器reqeuire条件不应该被注释，应该放在_下。
+blazectf LocklessPancakePair 这个题又两个合约，第一个合约里两个代币各有1个，第二个合约各有99个，如合约名所说Lockless，这个lock修饰器reqeuire条件不应该被注释。
 ```solidity
 modifier lock() {
         // require(unlocked == 1, 'Pancake: LOCKED');
